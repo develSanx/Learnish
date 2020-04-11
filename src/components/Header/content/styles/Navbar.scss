@@ -1,0 +1,28 @@
+.nav-menus {
+  display: none;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+      margin: 0px 20px;
+
+      a {
+        font-size: 1.2rem;
+        color: rgb(39, 43, 100);
+      }
+
+      &:hover {
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(39, 43, 100);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-menus {
+    display: inline;
+  }
+}

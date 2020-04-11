@@ -1,0 +1,47 @@
+#about-page {
+  background-image: url("../media/abtBG.jpg");
+  background-attachment: fixed;
+}
+
+#about-page .about-content {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: hidden;
+}
+
+#about-page .about-content .img-wrap {
+  padding: 50px 0px;
+}
+
+#about-page .about-content .img-wrap .pepimg {
+  width: 100%;
+}
+
+#about-page .about-content .title {
+  margin: 50px 0px;
+}
+
+#about-page .about-content .subtitle {
+  max-width: 650px;
+}
+
+#about-page .about-content .button {
+  position: static;
+  margin: 20px 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  #about-page .about-content .title {
+    font-size: 2.5rem;
+  }
+}
+/*# sourceMappingURL=About.css.map */

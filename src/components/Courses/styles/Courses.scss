@@ -1,0 +1,16 @@
+#course-page {
+  padding-top: 100px;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  .course-intro {
+    text-align: center;
+
+    .title {
+      color: white;
+      font-size: 3rem;
+    }
+    .subtitle {
+      color: white;
+      font-size: 2rem;
+    }
+  }
+}

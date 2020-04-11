@@ -1,0 +1,25 @@
+.teachList {
+  .card {
+    max-width: 350px;
+    margin: 30px;
+    padding: 20px;
+    position: static;
+    text-align: left;
+
+    // 2893 2233
+
+    .title {
+      color: gray;
+    }
+
+    .subtitle {
+      color: gray;
+      padding-top: 20px;
+    }
+
+    .card-image,
+    .image {
+      position: static;
+    }
+  }
+}

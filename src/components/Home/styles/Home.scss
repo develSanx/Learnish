@@ -1,0 +1,35 @@
+#home-page {
+  background-image: url("../media/hero_Bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  .title,
+  .subtitle {
+    color: white;
+    text-shadow: 0px 0px 20px black;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #home-page {
+    .title {
+      font-size: 3rem;
+    }
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #home-page {
+    .title {
+      font-size: 4rem;
+    }
+    .subtitle {
+      font-size: 2rem;
+    }
+  }
+}

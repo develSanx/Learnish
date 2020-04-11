@@ -1,0 +1,13 @@
+.logo {
+  display: inline;
+  font-size: 1.5rem;
+  color: rgb(39, 43, 100);
+
+  span {
+    margin: 0px 5px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

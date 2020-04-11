@@ -1,0 +1,29 @@
+.nav-menus {
+  display: none;
+}
+
+.nav-menus ul {
+  list-style: none;
+}
+
+.nav-menus ul li {
+  display: inline;
+  margin: 0px 20px;
+}
+
+.nav-menus ul li a {
+  font-size: 1.2rem;
+  color: #272b64;
+}
+
+.nav-menus ul li:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #272b64;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-menus {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,31 @@
+#teachers-page {
+  text-align: center;
+  padding-top: 100px;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#teachers-page .mainContent .title {
+  color: white;
+  font-size: 3rem;
+}
+
+#teachers-page .mainContent .subtitle {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+#teachers-page .teachList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=Teachers.css.map */

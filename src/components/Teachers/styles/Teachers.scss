@@ -1,0 +1,24 @@
+#teachers-page {
+  text-align: center;
+  padding-top: 100px;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+
+  .mainContent {
+    .title {
+      color: white;
+      font-size: 3rem;
+    }
+    .subtitle {
+      color: white;
+      font-size: 2rem;
+      padding-bottom: 50px;
+    }
+  }
+
+  .teachList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

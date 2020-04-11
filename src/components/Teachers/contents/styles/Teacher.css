@@ -1,0 +1,22 @@
+.teachList .card {
+  max-width: 350px;
+  margin: 30px;
+  padding: 20px;
+  position: static;
+  text-align: left;
+}
+
+.teachList .card .title {
+  color: gray;
+}
+
+.teachList .card .subtitle {
+  color: gray;
+  padding-top: 20px;
+}
+
+.teachList .card .card-image,
+.teachList .card .image {
+  position: static;
+}
+/*# sourceMappingURL=Teacher.css.map */
